@@ -1,30 +1,44 @@
 # Exp.No:3e
-## SEB - STRING SLICING
+## SEB - Resultant list
 
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
+Write a non fruitful and non parameterized function to get two lists and extend the second list with the first and print the resultant list.
 
 ---
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
+2.Define a function with no parameters.
+3.Inside the function:
+  Create two lists (list1 and list2) with some values.
+  Use list2.extend(list1) to add all elements of list1 to list2.
+  Print list2.
+4.Call the function. 
+5. Terminate the program.
 
 ---
 
 ### PROGRAM
-
 ```
+Reg no-212222220022
+Name-MASNIKANDAN R
+write your code
+def extendlist():
+    L1=eval(input())
+    L2=eval(input())
+    print(f"List1= {L1}")
+    print(f"List2= {L2+L1}")
+    print(f"Resultant List={L2+L1}")
+
 ```
 
 ### OUTPUT
 
+
+![Module 3e](https://github.com/user-attachments/assets/70f3cf2b-8818-4488-a6a1-add5e2aea0f3)
+
 ### RESULT
+This program for non parameterized function to get two lists and extend the second list with the first and print the resultant list is successfully executed.
