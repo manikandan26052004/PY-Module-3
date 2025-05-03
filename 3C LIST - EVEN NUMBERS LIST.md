@@ -22,10 +22,21 @@ To write a Python function that accepts a number **N** and creates a list contai
 ---
 
 ### PROGRAM
-
 ```
+Reg no-212222220022
+Name-MANIKANDAN R
+def createlist(n):
+    l=[]
+    for i in range(2,n):
+        if i%2==0:
+            l.append(i)
+    print(l)
+
 ```
 
 ### OUTPUT
 
+![Module 3c](https://github.com/user-attachments/assets/9d98933e-ce67-49e2-b240-50edf1db9cba)
+
 ### RESULT
+This program number **N** and creates a list containing all even numbers up to **N** is successfully executed.
