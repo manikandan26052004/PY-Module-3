@@ -20,10 +20,17 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 ---
 
 ### PROGRAM
-
 ```
-```
+Reg no-212222220022
+Name-MANIKANDAN R
+n= int(input())
 
+L = list(range(5,n,5))
+print(tuple(L))
+```
 ### OUTPUT
 
+![MODULE 3d](https://github.com/user-attachments/assets/caf3b60e-30c4-47fb-bb4e-4a4ae778dcc6)
+
 ### RESULT
+This program for tuple containing all multiples of 5 up to a given number **N** is successufully executed.
