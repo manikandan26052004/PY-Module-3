@@ -21,10 +21,19 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ---
 
 ### PROGRAM
-
 ```
+Reg no-212222220022
+Name-MANIKANDAN R
+with your code
+def replacestr(n,p):
+    print("The old string is {}".format(n))
+    print("the new string is {}".format(n.replace(p,x)))
+x=str(input())
 ```
 
 ### OUTPUT
 
+![Module 3A](https://github.com/user-attachments/assets/4a302724-fc27-4e55-ba8e-7aaa55011d13)
+
 ### RESULT
+This program for string, identify a word to be replaced, and replace it with a new word provided by the user is successfully executed.
