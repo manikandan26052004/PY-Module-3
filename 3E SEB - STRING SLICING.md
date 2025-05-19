@@ -24,7 +24,7 @@ Write a non fruitful and non parameterized function to get two lists and extend 
 ### PROGRAM
 ```
 Reg no-212222220022
-Name-MASNIKANDAN R
+Name-MANIKANDAN R
 write your code
 def extendlist():
     L1=eval(input())
